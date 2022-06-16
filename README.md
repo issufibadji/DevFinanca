@@ -22,7 +22,7 @@
 
  ![devfinanca](https://user-images.githubusercontent.com/45535344/174135259-9b87f237-630f-432d-92d9-d3955c0bc914.gif)
  
-## :book: 💻Sobre
+## 💻Sobre
 O **dev.finança** é uma aplicação para controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída.<br>
 O projeto foi desenvolvido durante a [Maratona Discover 1](https://maratonadiscover.rocketseat.com.br/), realizada pela [Rocketseat](https://www.rocketseat.com.br/)
 
@@ -30,14 +30,14 @@ O projeto foi desenvolvido durante a [Maratona Discover 1](https://maratonadisco
 O projeto está hospedado no Github Pages
 > https://issufibadji.github.io/DevFinanca/
 
-## :rocket: 🚀Tecnologias
+## 🚀Tecnologias
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [HTML]()
 - [CSS]()
 - [JavaScript]()
 
-## :bookmark: 🔖Layout
+## 🔖Layout
 Para visualizar o layout do projeto crie ou acesse sua conta no [Figma](https://figma.com) e [clique aqui](https://www.figma.com/file/7Vu9DzUaCZIV4nibzkjgB4/dev.finance%24-Maratona-Discover) para acessá-lo.
 
 ## :memo: Licença
