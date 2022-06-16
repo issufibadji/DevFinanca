@@ -19,9 +19,7 @@
     <a href="#memo-licença">Licença</a>
 </p>
 
-<p align="center">
-    <img alt="Preview" src="https://ik.imagekit.io/imagens/devfinances_zskB8y-Nz.gif">
-</p>
+![devfinanca](https://user-images.githubusercontent.com/45535344/174135259-9b87f237-630f-432d-92d9-d3955c0bc914.gif)
 
 ## :book: Sobre
 O **dev.finances** é uma aplicação para controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída. O projeto foi desenvolvido durante a [Maratona Discover 1](https://maratonadiscover.rocketseat.com.br/), realizada pela [Rocketseat](https://www.rocketseat.com.br/)
