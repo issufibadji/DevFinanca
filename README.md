@@ -26,7 +26,7 @@ O **dev.finances** é uma aplicação para controle financeiro, onde é possíve
 
 ## :cloud: Deploy
 O projeto está hospedado no Github Pages
-> https://talissonoliveira.github.io/dev-finances/
+> https://issufibadji.github.io/DevFinanca/
 
 ## :rocket: Tecnologias
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
@@ -39,8 +39,8 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 Para visualizar o layout do projeto crie ou acesse sua conta no [Figma](https://figma.com) e [clique aqui](https://www.figma.com/file/7Vu9DzUaCZIV4nibzkjgB4/dev.finance%24-Maratona-Discover) para acessá-lo.
 
 ## :memo: Licença
-Este projeto esta sobe a licença MIT. Consulte a [LICENÇA](https://github.com/TalissonOliveira/dev-finances/blob/master/LICENSE) para obter mais informações.
+Este projeto esta sobe a licença MIT. Consulte a [LICENÇA](https://github.com/issufibadji/DevFinanca/blob/main/LICENSE) para obter mais informações.
 
 ---
 
-Feito com :heart: por Talisson Oliveira
+Desenvolvido por :heart: por Issufi Badji
