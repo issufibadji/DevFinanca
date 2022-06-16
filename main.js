@@ -34,7 +34,7 @@ const Transaction = {
         let income = 0
 
         Transaction.all.forEach(transaction => {
-            if(transaction.amount > 0) {
+            if (transaction.amount > 0) {
                 income += transaction.amount
             }
         })
@@ -46,7 +46,7 @@ const Transaction = {
         let expense = 0;
 
         Transaction.all.forEach(transaction => {
-            if(transaction.amount < 0) {
+            if (transaction.amount < 0) {
                 expense += transaction.amount
             }
         })
@@ -109,7 +109,7 @@ const Utils = {
     //Formatar valor
     formatAmount(value) {
         value = Number(value) * 100
-        
+
         return value
     },
 
@@ -162,7 +162,7 @@ const Form = {
             amount,
             date
         }
-        
+
     },
     showError(message) {
         document.querySelector(".message").innerHTML = `${message}`
@@ -172,9 +172,9 @@ const Form = {
     validateField() {
         const { description, amount, date } = Form.getValues()
 
-        if(description.trim() === "" || amount.trim() === "" || date.trim() === "") { //trim -> limpar os espaços vazios
+        if (description.trim() === "" || amount.trim() === "" || date.trim() === "") { //trim -> limpar os espaços vazios
             Form.showError("Por favor, preencha todos os campos!")
-            throw new Error("Por favor, preencha todos os campos!")// Criar novo objeto de erro utilizando o construtor Error
+            throw new Error("Por favor, preencha todos os campos!") // Criar novo objeto de erro utilizando o construtor Error
         }
 
         console.log(description, amount, date)
@@ -189,17 +189,17 @@ const Form = {
 
     submit(event) {
         event.preventDefault() //Tirar comportamento padrão do formulário(não mostrar informações na url no browser)
-        
+
         try {
             //Verificar se os campos são válidos
             Form.validateField()
-            //Pegar transação formatada
+                //Pegar transação formatada
             const transaction = Form.formatValues()
-            //Adicionar transação
+                //Adicionar transação
             Transaction.add(transaction)
-            //Limpar os campos
+                //Limpar os campos
             Form.clearFields()
-            //Fechar modal
+                //Fechar modal
             Modal.close()
         } catch (error) {
             console.log(error.message)
@@ -212,7 +212,7 @@ const App = {
         Transaction.all.forEach((transaction, index) => {
             DOM.addTransaction(transaction, index)
         })
-        
+
         DOM.updateBalance()
 
         Storage.set(Transaction.all)
